@@ -1,0 +1,56 @@
+body{
+    background-color: azure;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.class1{
+    margin-left: 450px;
+    border: 20px solid rgba(31, 34, 204, 0.877);
+    padding: 50px;
+    font-weight: bold;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+.mail{
+    border-radius: 10px;
+    font-size: larger;
+}
+.pass{
+    border-radius: 10px;
+    font-size: larger;
+}
+.check{
+    font-family:cursive;
+}
+.sub{ 
+    display: inline-block;
+    background-color: blanchedalmond;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: transform .2s;
+}
+.sub:hover{
+    transform: scale(1.1);
+}
+.res{ 
+    display: inline-block;
+    background-color: blanchedalmond;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: transform .2s;
+}
+.res:hover{
+    transform: scale(1.1);
+}

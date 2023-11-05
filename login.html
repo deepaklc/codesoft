@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LOGIN</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<h1>Login for better experience</h1>
+
+<form class="class1">
+  <input type="text" class="mail" placeholder="email"><br><br>
+  <input type="password" class="pass" placeholder="password" id="input"><br>
+  <input type="checkbox" onclick="myFunction()" class="check" >Show password<br><br>
+  <input type="submit" value="Submit" class="sub">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="reset" value="Cancel" class="res"><br>
+</form>
+<script>
+  function myFunction(){
+    var x=document.getElementById("input");
+    if(x.type=="password"){
+      x.type="text";
+    }
+    else{
+      x.type="password"
+    }
+  }
+</script>
+</body>
+</html>
